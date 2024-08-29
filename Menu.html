@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <style>
+        body{
+            background-color:saddlebrown;
+        }
+        .card{
+            border: 10px solid black;
+            
+        }
+        .menu-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         gap:70px ; 
+        }
+        .title{
+            text-align: center;
+        }
+        li{
+            justify-content: center;
+        }
+
+        .title:hover{
+            background-color:black;
+            color: aliceblue;
+        }
+
+         li:nth-child(even){
+            background-color: black;
+            color: aliceblue;
+         }
+         .menu-card h1:hover{
+         color: aliceblue;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+         }
+              
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+    <div class="title">
+        <h1>Usha's Restaurant</h1>
+        <h2> Menu</h2>
+        </div>
+        <div class="menu-card">
+        <ul>
+            <h1>Veg Menu</h1>
+            <li>Paneer Fried Rice</li>
+            <li>Veg Fried Rice</li>
+            <li>Paneer Curry</li>
+            <li>Tomato Rice</li>
+            <li>Curd Rice</li>
+        </ul>
+        <ul>
+            <h1>Non-Veg Menu</h1>
+            <li>Chicken Biryani</li>
+            <li>Mutoon Biryani</li>
+            <li>Fish Curry</li>
+            <li>Prawns Curry</li>
+            <li>Egg Rice</li>
+      
+        </ul>
+    </div>
+    <div class="menu-card">
+        <ul>
+         <h1>Desserts Menu</h1>
+         <li>Chocolate Custard</li>
+         <li>Apricot Delight</li>
+         <li>Vanilla Bean</li>
+         <li>Blueberry Buckle</li>
+         <li>Red Velvet</li>
+        </ul>
+        <ul>
+            <h1>Ice Creams</h1>
+          <li>Vanilla</li>
+          <li>ButterScotch</li>
+          <li>Chocolate</li>
+          <li>Strawberry</li>
+          <li>Blueberry</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
