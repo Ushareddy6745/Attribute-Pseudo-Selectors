@@ -1,2 +1,2 @@
 # Attribute-Pseudo-Selectors
-Created playlist using Attribute selectors and Pseudo Classes.
+Created playlist and menu card using Attribute selectors and Pseudo Classes.
